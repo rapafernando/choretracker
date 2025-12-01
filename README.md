@@ -1,3 +1,13 @@
+# choretracker
+
+Calendar orchestration utilities for linking household calendars from Google Calendar and Microsoft Graph. The package includes connectors with token refresh handling, registry helpers to track surfaced calendars, and an ingestion service that normalizes events and flags conflicts.
+
+## Running tests
+
+```
+pip install -e .[test]
+pytest
+```
 # Choretracker
 
 This starter sets up a Next.js demo with protected tabs for Calendar, Chores, and Settings plus server-side role and household context. OAuth/OIDC provider metadata is scaffolded for Google, Microsoft, and Apple with optional email/password.
